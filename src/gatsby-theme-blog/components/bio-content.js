@@ -8,6 +8,6 @@ import React, { Fragment } from "react"
 export default () => (
   <Fragment>
     {/* Hi my name is <Styled.a href="http://example.com/">Omar</Styled.a> */}
-    Hi my name is Omar
+    Hi my name is Omar. 
   </Fragment>
 )
