@@ -6,6 +6,7 @@
   "dependencies": {
     "gatsby": "^2.13.82",
     "gatsby-theme-blog": "^1.2.1",
+    "netlify-cms": "^2.9.7",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
