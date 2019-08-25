@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "gatsby": "^2.13.82",
+    "gatsby-plugin-feed": "^2.3.9",
     "gatsby-plugin-netlify": "^2.1.10",
     "gatsby-plugin-netlify-cache": "^1.2.0",
     "gatsby-plugin-netlify-cms": "^4.1.11",

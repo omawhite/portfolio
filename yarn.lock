@@ -4971,7 +4971,7 @@ gatsby-plugin-emotion@^4.1.2:
     "@babel/runtime" "^7.5.5"
     "@emotion/babel-preset-css-prop" "^10.0.14"
 
-gatsby-plugin-feed@^2.3.6:
+gatsby-plugin-feed@^2.3.6, gatsby-plugin-feed@^2.3.9:
   version "2.3.9"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-2.3.9.tgz#2aea776ab10c78575b434d79bef5274c5d8d8e1f"
   dependencies:

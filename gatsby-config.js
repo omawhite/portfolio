@@ -1,3 +1,6 @@
+const rssFeedQueries = require('./src/queries/RSSFeed')
+const rssFeedHelpers = require('./src/helpers/RSSFeedHelpers')
+
 module.exports = {
   siteMetadata:{
     title: "Louis White",
@@ -33,6 +36,20 @@ module.exports = {
       }
     },
     `gatsby-plugin-netlify-cache`,
-    `gatsby-plugin-netlify-cms` //https://www.gatsbyjs.org/packages/gatsby-plugin-netlify-cms/?=netlify
+    `gatsby-plugin-netlify-cms`, //https://www.gatsbyjs.org/packages/gatsby-plugin-netlify-cms/?=netlify
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: rssFeedQueries.siteMetadata,
+        feeds: [
+          {
+            serialize: rssFeedHelpers.rssSerialize,
+            query: rssFeedQueries.allPosts,
+            output: '/rss.xml',
+            title: 'Louis White RSS Feed'
+          }
+        ]
+      }
+    }
   ]
 }
