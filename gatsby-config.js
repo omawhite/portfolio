@@ -25,6 +25,6 @@ module.exports = {
       }
     },
     `gatsby-plugin-netlify-cache`,
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms` //https://www.gatsbyjs.org/packages/gatsby-plugin-netlify-cms/?=netlify
   ]
 }
