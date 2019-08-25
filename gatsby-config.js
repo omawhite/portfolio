@@ -3,6 +3,16 @@ module.exports = {
     title: "Louis White",
     author: "Omar Louis White", 
     description: "Omar Louis White's Portfolio",
+    social: [
+      {
+        name: 'twitter',
+        url: 'twitter.com/louiswhite3019',
+      },
+      {
+        name: 'github',
+        url: 'github.com/omawhite',
+      },
+    ]
   },
   plugins: [
     {
