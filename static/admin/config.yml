@@ -8,8 +8,8 @@ backend:
     - Editor
 
 publish_mode: editorial_workflow
-site_url: 
-display_url: 
+site_url: https://louiswhite.me
+display_url: https://louiswhite.me
 
 media_folder: static/img
 public_folder: img
