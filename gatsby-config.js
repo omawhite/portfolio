@@ -6,11 +6,19 @@ module.exports = {
     social: [
       {
         name: 'twitter',
-        url: 'twitter.com/louiswhite3019',
+        url: 'https://twitter.com/louiswhite3019',
       },
       {
         name: 'github',
-        url: 'github.com/omawhite',
+        url: 'https://github.com/omawhite',
+      },
+      {
+        name: 'dev.to',
+        url: 'https://dev.to/omawhite'
+      },
+      {
+        name: 'linkedin',
+        url: 'https://www.linkedin.com/in/omar-white-29b66ba3/'
       },
     ]
   },
