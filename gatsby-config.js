@@ -23,6 +23,8 @@ module.exports = {
         assetPath: 'static/assets', // the file path to your assets folder
         mdx: true, // whether or not to configure mdx for you
       }
-    }
+    },
+    `gatsby-plugin-netlify-cache`,
+    `gatsby-plugin-netlify-cms`
   ]
 }
