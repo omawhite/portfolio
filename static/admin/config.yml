@@ -33,7 +33,7 @@ collections:
   - name: 'pages'
     label: 'Pages'
     files:
-      - file: 'src/pages/about.mdx'
+      - file: 'src/pages/about.md'
         label: 'About'
         name: 'about'
         preview_path: '/about'
