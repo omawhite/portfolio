@@ -30,13 +30,13 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
 
-  # - name: 'pages'
-  #   label: 'Pages'
-  #   files:
-  #     - file: 'src/pages/index.md'
-  #       label: 'Home Page'
-  #       name: 'homepage'
-  #       preview_path: '/'
-  #       fields:
-  #         - { label: 'Template Key', name: 'templateKey', widget: 'hidden', default: 'index-page' }
-  #         - { label: Title, name: title, widget: string }
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - file: 'src/pages/about.mdx'
+        label: 'About'
+        name: 'about'
+        preview_path: '/about'
+        fields:
+          - { label: 'Template Key', name: 'templateKey', widget: 'hidden', default: 'about-page' }
+          - { label: Title, name: title, widget: string }
