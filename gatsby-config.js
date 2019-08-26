@@ -4,6 +4,7 @@ const rssFeedHelpers = require('./src/node/helpers/RSSFeedHelpers')
 module.exports = {
   siteMetadata:{
     title: "Louis White",
+    siteUrl: 'https://www.louiswhite.me',
     author: "Omar Louis White", 
     description: "Omar Louis White's Portfolio",
     social: [
