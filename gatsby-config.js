@@ -1,5 +1,5 @@
-const rssFeedQueries = require('./src/queries/RSSFeed')
-const rssFeedHelpers = require('./src/helpers/RSSFeedHelpers')
+const rssFeedQueries = require('./src/node/queries/RSSFeed')
+const rssFeedHelpers = require('./src/node/helpers/RSSFeedHelpers')
 
 module.exports = {
   siteMetadata:{

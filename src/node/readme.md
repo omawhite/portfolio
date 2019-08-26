@@ -1,0 +1,1 @@
+This is where im putting all my things that need to be used during the node build steps of gatsby, since the import and exporting is different

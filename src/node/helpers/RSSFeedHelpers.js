@@ -1,4 +1,4 @@
-export function rssSerialize({query: {site, allMarkdownRemark}}){
+function rssSerialize({query: {site, allMarkdownRemark}}){
   return allMarkdownRemark.edges.map(edge => {
     return Object.assign({}, edge.node.frontmatter, {
       description: edge.node.excerpt,
@@ -9,3 +9,5 @@ export function rssSerialize({query: {site, allMarkdownRemark}}){
     })
   })
 }
+
+module.exports={rssSerialize}
