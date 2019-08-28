@@ -18,7 +18,7 @@ collections:
   - name: 'blog-posts'
     label: 'Blog Posts'
     preview_path: '/{{slug}}'
-    folder: 'src/posts'
+    folder: 'static/posts'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
