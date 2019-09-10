@@ -18,3 +18,5 @@ jobs:
         SOURCE_BRANCH: "master"
         DESTINATION_REPO: "https://omawhite:${{secrets.GH_ACCESS_TOKEN}}@github.com/omawhite/louiswhite.me.git"
         DESTINATION_BRANCH: "master"
+      with:
+        args: $SOURCE_REPO $SOURCE_BRANCH $DESTINATION_REPO $DESTINATION_BRANCH
