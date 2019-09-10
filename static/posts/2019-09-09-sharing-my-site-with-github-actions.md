@@ -15,4 +15,6 @@ I figured the easy solution was to just keep to repos, a public one for the worl
 
 To do this I figured that some type of CI/CD tool would be required, but I wanted a solution that wouldn't require me to pay much money. I'm familiar with [drone](https://drone.io/) and originally thought I might stand up an instance of it on the server I have running at home, but once I got invited to the github actions beta I figured that could solve my problem and give me the opportunity to familiarize myself with a new tool.
 
-After a bit of tinkering and research I found an action someone else had already made that worked for my use case.
+After a bit of tinkering and research I found [an action](https://github.com/marketplace/actions/git-sync-action) someone else had already made that worked for my use case. I was able to set this action up without much difficulty to keep my two repos in sync, so I would consider my first experiment with github actions to be success.
+
+While I'm still more used to the way drone handles things, I think github actions have a lot of promise. I think their biggest potential is their re-usability. Once they are out of beta and more widespread I imagine there will be a plethora of useful github actions for folks to pick from, similarly to how you can find a docker image for just about anything these days. I'll definitely be coming back to them in the future. Check out the repo for my site [here.](https://github.com/omawhite/louiswhite.me)
