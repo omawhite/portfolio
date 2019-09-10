@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: repo-sync
-      uses: wei/git-sync@latest
+      uses: wei/git-sync@master
       env: 
         SOURCE_REPO: "https://omawhite:${{secrets.GH_ACCESS_TOKEN}}@github.com/omawhite/portfolio.git"
         SOURCE_BRANCH: "master"
