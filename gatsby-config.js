@@ -36,6 +36,7 @@ module.exports = {
         mdx: true, // whether or not to configure mdx for you
       }
     },
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-netlify-cache`,
     `gatsby-plugin-netlify-cms`, //https://www.gatsbyjs.org/packages/gatsby-plugin-netlify-cms/?=netlify
     {
