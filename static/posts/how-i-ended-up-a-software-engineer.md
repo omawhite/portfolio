@@ -2,7 +2,7 @@
 title: How I Ended Up A Software Engineer
 date: 2018-02-11T00:00:00.000Z
 description: "My edits of your launch post. It wouldn’t let me save until I put something in these fields, .... including that image and tags....\U0001F914 "
-featuredimage: /img/cb497a52-3607-49f3-a440-cd7ffd45142b.jpeg
+featuredimage: /img/5ff6e03f-0ffe-4606-855e-5dfee4556f44.jpeg
 tags:
   - My edits
 ---
