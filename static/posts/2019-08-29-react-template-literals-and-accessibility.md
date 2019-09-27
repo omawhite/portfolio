@@ -10,3 +10,13 @@ tags:
   - Accessibility Engineering React JavaScript
 ---
 Something I noticed working with react was the difference in how in how templates literals affect screen readers.
+
+
+
+
+
+
+
+Checkout my code sandbox to experiment more:
+
+https://codesandbox.io/embed/wandering-pine-bg1e4?fontsize=14
