@@ -23,9 +23,11 @@ This seemed fine to me at the time, I was aware of template literals, but wasn't
 
 Put video demonstrating this here
 
-Turn out that when you use template literals to properly
+Turn out that when you don't use template literals to properly interpolate variables into your strings things don't end up the DOM as you intended.
 
-So when in doubt, I would suggest making use of this useful ES6 feature for the sake of maintaining a pleasant experience for all of your site's users.
+![screenshot of the dom output from my code sandbox experiment](/img/screenshot-2019-09-26-20.46.04.png "You can see the string is broken up inside of our first paragraph tag")
+
+I have only observed screen readers tripping over this on iOS devices, but given the DOM output I wouldn't be surprised if the experience is the same with other screen reading technologies. So when in doubt, I would suggest making use of this useful ES6 feature for the sake of maintaining a pleasant experience for all of your site's users.
 
 Checkout my code sandbox to experiment more:
 
