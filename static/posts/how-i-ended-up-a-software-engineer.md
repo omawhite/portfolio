@@ -4,7 +4,9 @@ date: 2018-02-11T00:00:00.000Z
 description: "My edits of your launch post. It wouldn’t let me save until I put something in these fields, .... including the image and description tags....\U0001F914 "
 featuredimage: /img/5ff6e03f-0ffe-4606-855e-5dfee4556f44.jpeg
 tags:
-  - My edits
+  - career
+  - learning
+  - software engineering
 ---
 The other day I was cleaning out my inbox when I came across a message from [Code Academy](https://www.codecademy.com/). I quickly deleted the message and unsubscribed from their email updates since I hadn't used the platform in ages. In doing so, I came to the realization that I've come a long way since the beginning of my burgeoning interest in technology. Starting from my senior year of high school to this past year; I've made incredible strides towards my ever evolving goal, of becoming a (sought after?) great engineer.
 
