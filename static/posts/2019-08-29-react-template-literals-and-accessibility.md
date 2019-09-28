@@ -29,7 +29,7 @@ Turns out that when you don't use template literals to interpolate variables int
 
 ![screenshot of the dom output from my code sandbox experiment](/img/screenshot-2019-09-26-20.46.04.png "You can see the string is broken up inside of our first paragraph tag")
 
-Further research and experimentation, revealed what was going on. You don't have to use template literals to get the desired effect, but you do have to properly use strings. When writing regular HTML, the following is normal:
+Further research and experimentation, revealed the culprit. You don't have to use template literals to get the desired effect, but you do have to properly use strings. When writing regular HTML, the following is normal:
 
 ```
 <p>Just a regular paragraph tag nothing to see here</p>
@@ -41,13 +41,13 @@ So it would seem logical that in the React world, where javascript and html are 
 const WOULD = 'would'<p>This {WOULD} work<p>
 ```
 
-And it kinda does, visually your site would look fine, but upon inspection; the DOM would reveal three separate strings within this paragraph tag. So if you want to do things properly, and don't want to take advantage of template literals you need to do the following:
+And it kinda does, visually your site would look fine, but upon inspection; the DOM would reveal three separate strings within this paragraph tag. So if you are running into problems with iOS, or iOS voiceover and template literals, the following will solve the problem:
 
 ```
 const LIKE = 'like<p>{"something " + LIKE + " this will also work"}</p>
 ```
 
-By making sure to wrap your strings in quotes and append them together like in this example here; you can avoid your DOM output causing issues with a user’s screen reader. One caveat with this approach though, is that you have to make sure to add spaces to the beginning and end of your strings other wise you end up with an output in the DOM like:
+By making sure to wrap your strings in quotes and append them together like in this example here; you can avoid your DOM output causing issues with a user’s screen reader. One caveat with this approach though, is that you have to make sure to add spaces to the beginning and end of your strings, other wise you end up with an output in the DOM like:
 
 ```
 <p>Make sureyoudon't forget your spaces</p>
@@ -55,7 +55,7 @@ By making sure to wrap your strings in quotes and append them together like in t
 
 I have only observed screen readers tripping over improperly interpolated strings on iOS devices, but, given the DOM output, I wouldn't be surprised if the experience is the same with other screen reading technologies. 
 
-I think there are two lessons to be learned here. One, when in doubt, make use of the ES6 feature. Syntactically, I find it more pleasant than the alternative, and it helps maintain a consistent experience for your site's users. Secondly, its important to practice the fundamentals. I consider myself to be a pretty good software engineer, and the folks I work with are phenomenal, but debugging can be a challenge for everyone, regardless of skill. So don’t be afraid to re-acquaint yourself with the chance to constantly flex that debugging muscle. It will allow you to catch syntax errors in your code that an editor might miss, or simply won’t detect. In the process, you’ll be making a consistent and pleasant experience for ALL users. Those with screen readers, and those without. Being a sought after engineer, even at the senior level is always about mental flexing of my brain cells; learning, re-learning, fortunately, that's part of the fun - for me anyway. 
+I think there are two lessons to be learned here. One, when in doubt, make use of the ES6 feature. Syntactically, I find it more pleasant than the alternative, and it helps maintain a consistent experience for your site's users. Secondly, its important to practice the fundamentals. I consider myself to be a pretty good software engineer, and the folks I work with are phenomenal, but debugging can be a challenge for everyone, regardless of skill. So don’t be afraid to re-acquaint yourself with the chance to constantly flex that debugging muscle. It will allow you to catch syntax errors in your code that an editor might miss, or simply won’t detect. In the process, you’ll be making a consistent and pleasant experience for ALL users. Those with screen readers, and those without. Being a sought after engineer, even at the senior level is always about mental flexing of the brain cells; learning, re-learning, practicing, fortunately, that's part of the fun - for me anyway. 
 
 Checkout my code sandbox to experiment more:
 
