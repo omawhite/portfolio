@@ -3,8 +3,8 @@ templateKey: blog-post
 title: 'React, template literals, accessibility, iOS, iOS voiceover'
 date: 2019-08-30T03:14:07.839Z
 description: >-
-  How working with React and screen readers helped me learn more about strings
-  in javascript.
+  How working with React and screen readers helped me learn more about string
+  usage in javascript.
 featuredimage: /img/5ff6e03f-0ffe-4606-855e-5dfee4556f44.jpeg
 tags:
   - Accessibility Engineering React JavaScript
