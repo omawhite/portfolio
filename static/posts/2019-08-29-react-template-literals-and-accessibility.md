@@ -9,7 +9,7 @@ featuredimage: /img/5ff6e03f-0ffe-4606-855e-5dfee4556f44.jpeg
 tags:
   - Accessibility Engineering React JavaScript
 ---
-Something I have noticed working with React over the past two-ish years is the difference in how iOS voice over behaves when encountering variables improperly interpolated into strings. In our code base, I would occasionally come across something like this in a component:
+Something I have noticed working with React over the past two-ish years, is the difference in how iOS voice over behaves when encountering variables improperly interpolated into strings. In our code base, I would occasionally come across something like this in a component:
 
 ``
 
@@ -21,7 +21,7 @@ const SOME_STRING = "some string"...<p> This is {SOME_STRING}</p>
 
 The above seemed fine to me; I was aware of template literals, but wasn't sure of the difference between using them or not in situations like this. It wasn't until I had to do some accessibility work with iOS voice over, that I discovered that this issue was breaking the experience for users who needed a screen reader to navigate our site. 
 
-In the beginning, I wasn't sure why this was happening, but figured that it might be one of the following:  something React specific, something to do with webpack, or, something to do with the way we transpiled and constructed the bundle for our site. The template literals worked as intended, but the above example did not. After some digging, I discovered it was actually related to how strings work with javascript and the DOM.
+In the beginning, I wasn't quite sure why this was happening, but figured that it might be one of the following:  something React specific, something to do with webpack, or, something to do with the way we transpiled and constructed the bundle for our site. The template literals worked as intended, but the above example did not. After some digging, I discovered it was actually related to how strings work with javascript and the DOM.
 
 Put video demonstrating this here
 
