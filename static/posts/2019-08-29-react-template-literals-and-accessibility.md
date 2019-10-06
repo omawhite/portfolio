@@ -41,13 +41,13 @@ So it would seem logical that in the React world, where javascript and html are 
 const WOULD = 'would'<p>This {WOULD} work<p>
 ```
 
-And it kinda does, visually your site would look fine, but upon inspection; the DOM would reveal three separate strings within this paragraph tag. So if you are running into problems with iOS, or iOS voiceover and template literals, the following will solve the problem:
+And it kinda does, visually your site would look fine, but upon inspection; the DOM would reveal three separate strings within this paragraph tag. So if you are running into problems with iOS, or iOS voiceover and template literals, the following will help solve the problem:
 
 ```
 const LIKE = 'like<p>{"something " + LIKE + " this will also work"}</p>
 ```
 
-By making sure to wrap your strings in quotes and append them together like in this example here; you can avoid your DOM output causing issues with a user’s screen reader. One caveat with this approach though, is that you have to make sure to add spaces to the beginning and end of your strings, other wise you end up with an output in the DOM like:
+By making sure to wrap your strings in quotes and append them together like in the example above; you can avoid your DOM output causing issues with a user’s screen reader. One caveat with this approach though, is that you have to make sure to add spaces to the beginning and end of your strings, other wise you end up with an output in the DOM like:
 
 ```
 <p>Make sureyoudon't forget your spaces</p>
