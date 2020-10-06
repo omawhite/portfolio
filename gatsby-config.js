@@ -7,24 +7,24 @@ module.exports = {
     siteUrl: 'https://www.louiswhite.me',
     author: "Omar Louis White", 
     description: "Omar Louis White's Portfolio",
-    // social: [
-    //   {
-    //     name: 'twitter',
-    //     url: 'https://twitter.com/louiswhite3019',
-    //   },
-    //   {
-    //     name: 'github',
-    //     url: 'https://github.com/omawhite',
-    //   },
-    //   {
-    //     name: 'dev.to',
-    //     url: 'https://dev.to/omawhite'
-    //   },
-    //   {
-    //     name: 'linkedin',
-    //     url: 'https://www.linkedin.com/in/omar-white-29b66ba3/'
-    //   },
-    // ]
+    social: [
+      {
+        name: 'twitter',
+        url: 'https://twitter.com/louiswhite3019',
+      },
+      {
+        name: 'github',
+        url: 'https://github.com/omawhite',
+      },
+      {
+        name: 'dev.to',
+        url: 'https://dev.to/omawhite'
+      },
+      {
+        name: 'linkedin',
+        url: 'https://www.linkedin.com/in/omar-white-29b66ba3/'
+      },
+    ]
   },
   plugins: [
     `gatsby-theme-material-ui`,
