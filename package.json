@@ -4,17 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "gatsby": "^2.32.0",
-    "gatsby-plugin-feed": "^2.3.9",
-    "gatsby-plugin-netlify": "^2.1.12",
+    "gatsby": "^3.3.1",
+    "gatsby-plugin-feed": "^3.3.0",
+    "gatsby-plugin-netlify": "^3.3.0",
     "gatsby-plugin-netlify-cache": "^1.2.0",
-    "gatsby-plugin-netlify-cms": "^4.1.11",
-    "gatsby-source-filesystem": "^2.1.18",
-    "gatsby-theme-blog": "^1.2.1",
-    "gatsby-transformer-remark": "^2.6.19",
-    "netlify-cms-app": "^2.9.7",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "gatsby-plugin-netlify-cms": "^5.3.0",
+    "gatsby-source-filesystem": "^3.3.0",
+    "gatsby-theme-blog": "^3.0.0",
+    "gatsby-transformer-remark": "^4.0.0",
+    "netlify-cms-app": "^2.14.46",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "scripts": {
     "build": "gatsby build",
