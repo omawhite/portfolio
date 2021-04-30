@@ -28,7 +28,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-theme-blog',
+      resolve: 'gatsby-theme-blog', //https://www.gatsbyjs.com/plugins/gatsby-theme-blog/?=blog
       options: {
         contentPath: 'static/posts', // the file path to your blog posts
         basePath: '/', // the url for the root of your blog
@@ -36,9 +36,9 @@ module.exports = {
         mdx: true, // whether or not to configure mdx for you
       }
     },
+    `gatsby-theme-blog-darkmode`,
     `gatsby-plugin-netlify`,
-    `gatsby-plugin-netlify-cache`,
-    `gatsby-plugin-netlify-cms`, //https://www.gatsbyjs.org/packages/gatsby-plugin-netlify-cms/?=netlify
+    // `gatsby-plugin-netlify-cms`, //https://www.gatsbyjs.org/packages/gatsby-plugin-netlify-cms/?=netlify
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -48,7 +48,7 @@ module.exports = {
             serialize: rssFeedHelpers.rssSerialize,
             query: rssFeedQueries.allPosts,
             output: '/rss.xml',
-            title: 'Louis White RSS Feed'
+            title: "Omar Louis White's RSS Feed"
           }
         ]
       }
