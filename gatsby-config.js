@@ -38,7 +38,7 @@ module.exports = {
     },
     `gatsby-theme-blog-darkmode`,
     `gatsby-plugin-netlify`,
-    // `gatsby-plugin-netlify-cms`, //https://www.gatsbyjs.org/packages/gatsby-plugin-netlify-cms/?=netlify
+    `gatsby-plugin-netlify-cms`, //https://www.gatsbyjs.org/packages/gatsby-plugin-netlify-cms/?=netlify
     {
       resolve: `gatsby-plugin-feed`,
       options: {
