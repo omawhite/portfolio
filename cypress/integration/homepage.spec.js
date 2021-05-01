@@ -1,3 +1,6 @@
+/**
+ * Tests that home page properly loads
+ */
 describe('Home page', () => {
   before(() => {
     cy.visit('/')
