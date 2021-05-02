@@ -19,6 +19,11 @@
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^7.2.0",
+    "netlify-plugin-cypress": "^2.2.0"
   }
 }
